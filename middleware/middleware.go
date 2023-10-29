@@ -65,3 +65,7 @@ func UpdateStock() {
 func DeleteStock() {
 
 }
+
+func insertStock(stock models.Stock) int64 {
+	return 100
+}
