@@ -8,7 +8,7 @@ import (
 
 func Router() *mux.Router {
 	router := mux.NewRouter()
-	//check
+
 	// router.HandleFunc("/api/stocks/{id}", middleware.GetStock).Methods("GET", "OPTIONS")
 	// router.HandleFunc("/api/stocks", middleware.GetAllStocks).Methods("GET", "OPTIONS")
 	router.HandleFunc("/api/newStock", middleware.CreateStock).Methods("POST", "OPTIONS")
